@@ -4,7 +4,7 @@ const chime = new AWS.Chime({ region: "us-east-1" });
 chime.endpoint = new AWS.Endpoint(
   "https://service.chime.aws.amazon.com/console"
 );
-const region = "us-east-1";
+const region = "ap-northeast-2";
 
 const mediaCaptureBucket = process.env["MEDIA_CAPTURE_BUCKET"];
 const aws_account_id = process.env["ACCOUNT_ID"];
