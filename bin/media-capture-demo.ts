@@ -6,6 +6,6 @@ const app = new cdk.App();
 
 new MediaCaptureDemo(app, "MediaCaptureDemo", {
   env: {
-    region: "us-east-1",
+    region: "ap-northeast-2",
   },
 });
