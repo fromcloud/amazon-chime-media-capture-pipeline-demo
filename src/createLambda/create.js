@@ -4,7 +4,7 @@ const chime = new AWS.Chime({ region: 'us-east-1' });
 var docClient = new AWS.DynamoDB.DocumentClient();
 chime.endpoint = new AWS.Endpoint('https://service.chime.aws.amazon.com/console');
 const meetingsTable = process.env.MEETINGS_TABLE_NAME;
-const region = 'us-east-1'
+const region = 'ap-northeast-2'
 
 function isEmppty (object) {
   return Object.keys(object).length === 0;
