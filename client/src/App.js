@@ -10,7 +10,7 @@ import cdkExports from './cdk-outputs.json'
 
 const axios = require('axios');
 const API_URL = cdkExports.MediaCaptureDemo.apiURL
-const region = 'us-east-1';
+const region = 'ap-northeast-2';
 
 const App = () => {
   const meetingManager = new useMeetingManager();
